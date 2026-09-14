@@ -47,6 +47,13 @@ Apabila instalasi templat tidak berhasil, gunakan versi [alpha dari templat ini 
 
 Pengajuan masalah bisa menggunakan Github Issue
 
+## Tersedia Template TA FPIK!
+
+- [X] Typst
+- [ ] Latex
+- [ ] Docx
+- [ ] Google Docs
+
 ## 🐍 Untuk Kontributor (Pengodean)
 
 Teks ini menganggap pembaca sudah tidak asing dengan menggunakan Git.

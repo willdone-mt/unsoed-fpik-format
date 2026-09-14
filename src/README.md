@@ -24,3 +24,5 @@
 3. Remove squre brackets for description-thesis
 4. publisher-place for thesis
 5. publisher-place for book and other type
+
+6. every item should use doi, then url, then nothing
