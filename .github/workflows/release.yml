@@ -1,0 +1,47 @@
+name: Attach CSL style to release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  upload-csl:
+    name: Upload adapted APA CSL
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out release tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - name: Prepare release asset
+        id: asset
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        shell: bash
+        run: |
+          source_file="csl/fpik_adapted_apa.csl"
+          test -f "$source_file"
+
+          asset_tag="${RELEASE_TAG//./_}"
+          asset_name="fpik-apa-${asset_tag}.csl"
+          asset_path="dist/${asset_name}"
+
+          mkdir -p dist
+          cp "$source_file" "$asset_path"
+
+          echo "name=$asset_name" >> "$GITHUB_OUTPUT"
+          echo "path=$asset_path" >> "$GITHUB_OUTPUT"
+
+      - name: Upload CSL asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.release.tag_name }}
+          files: ${{ steps.asset.outputs.path }}
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
