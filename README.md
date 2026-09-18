@@ -35,6 +35,8 @@ Lalu, ikuti salah satu bagian di bawah ini untuk tutorial instalasi templat
 
 Apabila instalasi templat tidak berhasil, gunakan versi [alpha dari templat ini disini](https://github.com/willdone-mt/csl-fpik-unsoed/releases/tag/v2018.1.1-alpha1)
 
+### 💤 Zotero
+
 ### ✨ Mendeley
 
 - [Instalasi pada Mendeley **Desktop** v1.19.8](/tutorial/mendeley_desktop.md)
@@ -93,6 +95,10 @@ Diharuskan membuat laporan penelitian agar perubahan dilakukan secara logis dan 
 - [ ] Menambah tutorial untuk pengelola referensi lainnya
 - [ ] Membuat otomasi rilis (auto embed file2 penting sesudah dinamai otomatis)
 - [ ] Membuat template dokumen dalam Format TA FPIK (typst, docx, latex)
+- [X] Restruktur repositori, agar menampung seluruh sumber daya format TA FPIK
+  - [X] meniadakan `src/` dengan mengganti nama folder tersebut dengan `csl/`
+  - [X] memindahkan `templates/` ke root
+  - [ ] memindahkan folder `tutorial/` ke dalam `docs/`
 
 ### Pranala Penting
 
