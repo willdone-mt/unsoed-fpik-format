@@ -93,9 +93,22 @@
   supplement: auto,
 )
 
+/* ====================================================================== */
+/* BIBLIOGRPAHY                                                           */
+/* ====================================================================== */
+
+#let fpik-bibliography(sources, ..args) = bibliography(
+  sources, 
+  style: "fpik_adapted_apa.csl", 
+  ..args
+)
+
+
 /* ======================================================================= */
 /* TEMPLATE                                                                */
 /* ======================================================================= */
+
+#let _default-logo = image("logo-unsoed.png")
 
 #let manuscript(
   /* --- cover: title block ------------------------------------------- */
@@ -103,7 +116,7 @@
   pre-title: none,          // "Modul Praktikum Oseanografi Kimia"
   doc-title: none,          // "Teknik Sampling : Pengukuran dan Pengambilan Sampel"
   subtitle: none,           // optional extra line, not bold
-  logo: none,               // e.g. image("unsoed.png")
+  logo: _default-logo,
   logo-width: 2.5cm,
   title-width: 12cm,        // measure the title wraps in; keeps it off the margins
 
@@ -112,7 +125,7 @@
   authors: (),
   supervisor-label: none,   // e.g. [Asisten:] or [Dosen Pembimbing:]
   supervisors: (),
-  people-width: 11cm,
+  people-width: 10cm,
 
   /* --- cover: institution footer ------------------------------------- */
   program-studi: none,      // "Ilmu Kelautan"   -> "PROGRAM STUDI ILMU KELAUTAN"
