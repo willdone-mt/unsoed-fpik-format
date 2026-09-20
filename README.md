@@ -2,14 +2,17 @@
 
 ![GitHub Tag](https://img.shields.io/github/v/tag/willdone-mt/csl-fpik-unsoed?include_prereleases&sort=semver&style=for-the-badge&label=Latest%20Version&labelColor=%23202A44&color=%23005EB8)
 
-**Author**: [Arya Bratasena Alhaq](mailto:baraktt30@gmail.com).
 **Initial Contributor**: [Talitha Nada Aristawati](mailto:talitha.aristawati@mhs.unsoed.ac.id).
 
 Uploaded here for documentation
 
 ## Ringkasan
 
-gaya atribusi format TA FPIK 2018 merupakan adaptasi dari gaya atribusi American Psychological Association (APA Style)
+Gaya atribusi format TA FPIK 2018 (dan 2026) merupakan adaptasi dari gaya atribusi American Psychological Association (APA Style).
+
+Repositori ini adalah repo untuk menyimpan kode sumber dari csl format TA FPIK dan templat bahasa markup lainnya.
+Repo ini bukan merupakan repo resmi dari FPIK UNSOED.
+
 
 <!-- Format ... ini merupakan adaptasi dari gaya sitasi dan daftar pustaka dari ... .
 Citation Style Language adalah -->
@@ -36,6 +39,8 @@ Lalu, ikuti salah satu bagian di bawah ini untuk tutorial instalasi templat
 Apabila instalasi templat tidak berhasil, gunakan versi [alpha dari templat ini disini](https://github.com/willdone-mt/unsoed-fpik-format/releases/tag/v2018.1.1-alpha1)
 
 ### 💤 Zotero
+
+[Instalasi pada Zotero](docs/tutorial/zotero.md)
 
 ### ✨ Mendeley
 

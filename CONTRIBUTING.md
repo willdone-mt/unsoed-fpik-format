@@ -1,4 +1,6 @@
-## Cara Berkontribusi
+# Cara Berkontribusi
+
+## Bagi Pemrogram/Pengembang (Programmer/Developer)
 
 Teks ini menganggap pembaca sudah tidak asing dengan menggunakan Git.
 Sehingga, untuk memulai kontribusi dalam pemrograman ini,
