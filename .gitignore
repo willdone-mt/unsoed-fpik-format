@@ -1,3 +1,7 @@
 **/*.docx
 .env
 .vscode/
+
+scripts/utils/fetch-examplebib.ps1
+scripts/preview_template/biblatex-examples.bib
+**/*.code-workspace

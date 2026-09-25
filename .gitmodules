@@ -1,3 +1,3 @@
 [submodule "templates/typst"]
 	path = templates/typst
-	url = git@github-willdone:willdone-mt/unsoed-fpik-typst.git
+	url = https://github.com/willdone-mt/unsoed-fpik-typst
