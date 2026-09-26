@@ -13,9 +13,22 @@ Gaya atribusi format TA FPIK 2018 (dan 2026) merupakan adaptasi dari gaya atribu
 Repositori ini adalah repo untuk menyimpan kode sumber dari csl format TA FPIK dan templat bahasa markup lainnya.
 Repo ini bukan merupakan repo resmi dari FPIK UNSOED.
 
+### Yang tidak dapat dilakukan oleh CSL
 
-<!-- Format ... ini merupakan adaptasi dari gaya sitasi dan daftar pustaka dari ... .
-Citation Style Language adalah -->
+Di Pedoman TA FPIK (2018) dicantumkan bahwa:
+
+> Penyusunan penulis lebih dari satu dengan nama yang sama, 
+> maka daftar pustaka berikutnya tidak menuliskan nama penulis lagi 
+> dan diganti dengan garis(underline)
+
+Hal ini tidak bisa dilakukan **secara rapih** oleh CSL.
+Apabila CSL menerapkan ini, maka panjang tiap garis akan sama untuk tiap barang daftar pustaka, sehingga tidak sesuai pemformatan.
+Sekiranya tanpa garis, daftar pustaka tetap dapat diterima.
+
+Namun, penerapan ini dapat dilakukan melalui templat typst,
+Sebagaimana ditunjukkan oleh gambar berikut.
+
+![alt text](assets/image.png)
 
 ## 🎮 Untuk Pengguna Akhir
 
@@ -23,6 +36,11 @@ Pilih versi paling terbaru dari templat:
 
   1. Pergi ke [Templat Sitasi dan Dafpus TA FPIK terbaru di sini](https://github.com/willdone-mt/unsoed-fpik-format/releases/latest)
   2. Klik *drop down* `Assets` (Gulir ke bawah apabila tidak ditemukan)
+
+> [!NOTE]
+>
+> Versi terbaru akan ditampilkan otomatis apabila sudah ada penyesuaian setelah 
+> pengumuman/penerbitan Pedoman TA FPIK terbaru (yaitu 2026)
 
 Apabila membutuhkan tautannya, maka:
 
